@@ -2,17 +2,11 @@
 body {
     background-color: #eaeaea;
     font-family: Arial;
-    text-align: center; /* căn giữa toàn bộ */
-	font-size: 16px;
+    text-align: center;
 }
 
 /* Tiêu đề */
-h2 {
-    margin-bottom: 10px;
-	border-bottom: 1px solid #ccc;
-}
-
-h3 {
+h2, h3 {
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
@@ -20,23 +14,25 @@ h3 {
 /* Khung */
 table {
     width: 750px;
-    margin: 20px auto; /* căn giữa */
-    background-color: #ffffff; /* màu khung */
+    margin: 20px auto;
+    background-color: #ffffff;
     border-radius: 12px;
-    border: 1px solid #ddd;
+    border: 2px solid #333;
     border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* Nội dung */
 td {
-    padding: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 /* Ảnh */
 img {
     border-radius: 10px;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 
 /* Danh sách */
@@ -54,8 +50,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a img{
-	vertical-align: middle;
-	margin-left: 5px;
-	display: inline
+
+a img {
+    vertical-align: middle;
+    margin-left: 5px;
+    display: inline;
 }
