@@ -2,14 +2,14 @@
 body {
     background-color: #eaeaea;
     font-family: Arial;
-    font-size: 16px;
-    text-align: center; 
+    text-align: center; /* căn giữa toàn bộ */
+	font-size: 16px;
 }
 
 /* Tiêu đề */
 h2 {
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 h3 {
@@ -20,23 +20,16 @@ h3 {
 /* Khung */
 table {
     width: 750px;
-    margin: 20px auto;
-    background-color: #ffffff;
+    margin: 20px auto; /* căn giữa */
+    background-color: #ffffff; /* màu khung */
     border-radius: 12px;
-
-    /* SỬA QUAN TRỌNG */
-    border: 2px solid #333; 
-
+    border: 1px solid #ddd;
     border-collapse: collapse;
 }
 
 /* Nội dung */
 td {
-    padding: 10px;
-
-    /* SỬA QUAN TRỌNG */
-    border: 1px solid #ccc;
-    text-align: left; 
+    padding: 5px;
 }
 
 /* Ảnh */
@@ -61,9 +54,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-a img {
-    vertical-align: middle;
-    margin-left: 5px;
-    display: inline;
+a img{
+	vertical-align: middle;
+	margin-left: 5px;
+	display: inline
 }
