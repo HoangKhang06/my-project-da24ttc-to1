@@ -1,1 +1,61 @@
-﻿
+﻿/* Nền trang */
+body {
+    background-color: #eaeaea;
+    font-family: Arial;
+    text-align: center; /* căn giữa toàn bộ */
+	font-size: 16px;
+}
+
+/* Tiêu đề */
+h2 {
+    margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Khung */
+table {
+    width: 750px;
+    margin: 20px auto; /* căn giữa */
+    background-color: #ffffff; /* màu khung */
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+/* Nội dung */
+td {
+    padding: 5px;
+}
+
+/* Ảnh */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* Danh sách */
+ul, ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Link */
+a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a img{
+	vertical-align: middle;
+	margin-left: 5px;
+	display: inline
+}
