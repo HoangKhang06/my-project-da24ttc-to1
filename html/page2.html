@@ -2,17 +2,24 @@
 <html lang="vi">
 	<head>
 		<meta charset = "utf-8">	
-		<title>Thiết kế web với html, CSS</title>
+		<title>Thiết kế form</title>
+		<link rel="stylesheet" href="../css/style2.CSS">
 	</head>
 	<body>
-		<ul>
-			<li>
-				<a href = "page2.html">Trang thông tin cá nhân</a>
-			</li>	
-			<li>
-				<a href = "#2">Tiếp tục</a>
-			</li>
-		</ul>
-
+		<div class= "container">
+			<form id = "frmLogin">
+				<h3 class = "title"> ĐĂNG NHẬP HỆ THỐNG</h3>
+				<div class = "form-group">
+					<label for = "txtusername"> Tên đăng nhập: </label>
+					<input class = "form_control" type ="text" id = "txtusername" placeholder="Nhập tài khoản">
+				</div>
+				<div class = "form-group">
+					<label for = "txtpassword"> Mật khẩu: </label>
+					<input class = "form_control" type ="password" id = "txtpassword" placeholder="Nhập mật khẩu">
+				</div>
+				<input type="submit" name = "sblogin" value="Đăng Nhập">
+				<input type="reset" name = "rslabel " value="Hủy Bỏ">
+			</form>
+		</div>
 	</body>
 </html>

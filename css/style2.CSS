@@ -1,0 +1,39 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.container{
+    background-color: aquamarine;
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+div.form-group{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+form#frmLogin{
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+}
+h3.title{
+    font-size: larger;
+    letter-spacing: 2px;
+    text-align: center;
+}
+label{
+    color: chocolate;
+    font-weight: bolder;
+}
+.form_control{
+   padding: 2px;
+   width: 100%;
+}
