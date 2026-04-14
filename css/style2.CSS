@@ -37,3 +37,10 @@ label{
    padding: 2px;
    width: 100%;
 }
+.button{
+    background-color: coral;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 1px;
+    border-radius: 5px;
+}
