@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+    <form id="formInBangCC">
+        <h2>In bảng cửu chương</h2>
+        <label>Nhập Số: </label>
+        <input type="text">
+        <button type="button" onclick="inbang()">In</button>
+        
+        <div id="kq"> </div>
+    </form>
+    <script>
+        function inbang(){
+            const form = document.forms["formInBangCC"];
+            const textfield = form.elements[0];
+            let num = parseInt(textfield.value);
+
+            let kq = "";
+
+            for(let i = 1; i <= 10; i++){
+               kq += num + " x " + i + " = " + (num * i) + "<br>";
+            }
+
+            document.getElementById("kq").innerHTML = kq;
+        }
+    </script>
+</body>
+</html>
