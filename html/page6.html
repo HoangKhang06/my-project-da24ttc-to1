@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style6.CSS">
+</head>
+<body>
+    <script>
+        //tạo thẻ div product-item
+        const newDiv = document.createElement("div");
+        newDiv.setAttribute("class","product-item");
+      
+        //tạo div image
+        const newImage = document.createElement("div");
+        newImage.setAttribute("class","product-image");
+
+        //1.tạo hình
+        const newImageNode = document.createElement("img");
+        newImageNode.setAttribute("src","../assets/images/matcha.jpg");
+        newImage.appendChild(newImageNode);
+
+        const newInfo = document.createElement("div");
+        newInfo.setAttribute("class","product-info");
+
+        //tạo name
+        const name = document.createElement("p");
+        name.appendChild(document.createTextNode("Phindi Matcha Dâu"));
+
+        //tạo price
+        const price = document.createElement("p");
+        price.appendChild(document.createTextNode("59.000đ"));
+
+        //tạo link
+        const link = document.createElement("a");
+        link.setAttribute("href","https://www.highlandscoffee.com.vn/vn/phindi-matcha-dau-va-phindi-dua-mon-ra-mat-.html");
+        link.textContent = "Xem chi tiết";
+        
+        //gán vào info
+        newInfo.appendChild(name);
+        newInfo.appendChild(price);
+        newInfo.appendChild(link);
+        
+        //gán vào div
+        newDiv.appendChild(newImage);
+        newDiv.appendChild(newInfo);
+
+        // Gán vào body
+        document.body.appendChild(newDiv);
+    </script>
+</body>
+</html>
